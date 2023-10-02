@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { NuevoempleadoComponent } from './components/nuevoempleado/nuevoempleado.component';
 import { EditempleadoComponent } from './components/editempleado/editempleado.component';
 import { InformacionempleadoComponent } from './components/informacionempleado/informacionempleado.component';
+import { SistemaComponent } from './components/sistema/sistema.component';
 
 
 
@@ -30,7 +31,8 @@ import { InformacionempleadoComponent } from './components/informacionempleado/i
     EmpleadoComponent,
     NuevoempleadoComponent,
     EditempleadoComponent,
-    InformacionempleadoComponent
+    InformacionempleadoComponent,
+    SistemaComponent
   ],
   imports: [
     BrowserModule,
